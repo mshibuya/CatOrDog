@@ -1,0 +1,3 @@
+[submodule "DeepBeliefSDK"]
+	path = DeepBeliefSDK
+	url = git@github.com:jetpacapp/DeepBeliefSDK.git

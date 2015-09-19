@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		238A38471BADA487007C72A5 /* DeepBelief.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 238A38461BADA487007C72A5 /* DeepBelief.framework */; };
+		238A384A1BADA522007C72A5 /* DeepBelief.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 238A38461BADA487007C72A5 /* DeepBelief.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		23F345751BA7E53E00AA50F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F345741BA7E53E00AA50F1 /* main.m */; };
+		23F3457D1BA7E56A00AA50F1 /* DeepBeliefLearner.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F3457C1BA7E56A00AA50F1 /* DeepBeliefLearner.m */; };
+		23F345871BA7F38E00AA50F1 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F345861BA7F38E00AA50F1 /* AppKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		238A38491BADA513007C72A5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				238A384A1BADA522007C72A5 /* DeepBelief.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23F3456F1BA7E53E00AA50F1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		238A38461BADA487007C72A5 /* DeepBelief.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DeepBelief.framework; path = ../DeepBeliefSDK/OSXLibrary/DeepBelief.framework; sourceTree = "<group>"; };
+		23F345711BA7E53E00AA50F1 /* ImageLearner */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ImageLearner; sourceTree = BUILT_PRODUCTS_DIR; };
+		23F345741BA7E53E00AA50F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23F3457B1BA7E56A00AA50F1 /* DeepBeliefLearner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeepBeliefLearner.h; sourceTree = "<group>"; };
+		23F3457C1BA7E56A00AA50F1 /* DeepBeliefLearner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeepBeliefLearner.m; sourceTree = "<group>"; };
+		23F345861BA7F38E00AA50F1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23F3456E1BA7E53E00AA50F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238A38471BADA487007C72A5 /* DeepBelief.framework in Frameworks */,
+				23F345871BA7F38E00AA50F1 /* AppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23F345681BA7E53E00AA50F1 = {
+			isa = PBXGroup;
+			children = (
+				238A38461BADA487007C72A5 /* DeepBelief.framework */,
+				23F345861BA7F38E00AA50F1 /* AppKit.framework */,
+				23F345731BA7E53E00AA50F1 /* ImageLearner */,
+				23F345721BA7E53E00AA50F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23F345721BA7E53E00AA50F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23F345711BA7E53E00AA50F1 /* ImageLearner */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23F345731BA7E53E00AA50F1 /* ImageLearner */ = {
+			isa = PBXGroup;
+			children = (
+				23F3457B1BA7E56A00AA50F1 /* DeepBeliefLearner.h */,
+				23F3457C1BA7E56A00AA50F1 /* DeepBeliefLearner.m */,
+				23F345741BA7E53E00AA50F1 /* main.m */,
+			);
+			path = ImageLearner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23F345701BA7E53E00AA50F1 /* ImageLearner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23F345781BA7E53E00AA50F1 /* Build configuration list for PBXNativeTarget "ImageLearner" */;
+			buildPhases = (
+				23F3456D1BA7E53E00AA50F1 /* Sources */,
+				23F3456E1BA7E53E00AA50F1 /* Frameworks */,
+				23F3456F1BA7E53E00AA50F1 /* CopyFiles */,
+				238A38491BADA513007C72A5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageLearner;
+			productName = ImageLearner;
+			productReference = 23F345711BA7E53E00AA50F1 /* ImageLearner */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23F345691BA7E53E00AA50F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "渋谷充宏";
+				TargetAttributes = {
+					23F345701BA7E53E00AA50F1 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 23F3456C1BA7E53E00AA50F1 /* Build configuration list for PBXProject "ImageLearner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 23F345681BA7E53E00AA50F1;
+			productRefGroup = 23F345721BA7E53E00AA50F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23F345701BA7E53E00AA50F1 /* ImageLearner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23F3456D1BA7E53E00AA50F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23F345751BA7E53E00AA50F1 /* main.m in Sources */,
+				23F3457D1BA7E56A00AA50F1 /* DeepBeliefLearner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		23F345761BA7E53E00AA50F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		23F345771BA7E53E00AA50F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		23F345791BA7E53E00AA50F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		23F3457A1BA7E53E00AA50F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23F3456C1BA7E53E00AA50F1 /* Build configuration list for PBXProject "ImageLearner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F345761BA7E53E00AA50F1 /* Debug */,
+				23F345771BA7E53E00AA50F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23F345781BA7E53E00AA50F1 /* Build configuration list for PBXNativeTarget "ImageLearner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23F345791BA7E53E00AA50F1 /* Debug */,
+				23F3457A1BA7E53E00AA50F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23F345691BA7E53E00AA50F1 /* Project object */;
+}
